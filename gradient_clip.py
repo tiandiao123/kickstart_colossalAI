@@ -66,6 +66,6 @@ for idx, (img, label) in enumerate(train_dataloader):
     logger.info(f'iteration {idx}, loss: {train_loss}, 1st element of parameters: {ele_1st.item()}')
 
     # only run for 4 iterations
-    if idx == 3:
+    if idx == 100:
         break
 
